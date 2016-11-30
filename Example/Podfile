@@ -1,0 +1,15 @@
+platform :ios, ‘7.0’
+#use_frameworks!个别需要用到它，比如reactiveCocoa
+
+
+
+def pods
+  pod 'PPSSignatureView'
+end
+
+
+
+
+target 'PPSSignatureDemo' do
+  pods
+end
